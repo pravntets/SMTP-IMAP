@@ -1,0 +1,17 @@
+# Node.js dependencies
+node_modules/
+
+# TypeScript compiled files
+dist/
+
+# Environment variables
+.env
+
+# Log files
+npm-debug.log
+
+# TypeScript build info
+*.tsbuildinfo
+
+# VSCode settings (optional)
+.vscode/

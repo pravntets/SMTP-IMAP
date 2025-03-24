@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",           // Target modern JavaScript
+    "module": "commonjs",      // Use CommonJS module system for Node.js
+    "outDir": "./dist",        // Output compiled files to the 'dist' directory
+    "rootDir": "./src",        // Input files will be from the 'src' directory
+    "esModuleInterop": true,   // Enable interoperability between ESM and CommonJS
+    "strict": true             // Enable strict type-checking options
+  },
+  "include": [
+    "src/**/*.ts"              // Include all TypeScript files in 'src'
+  ],
+  "exclude": [
+    "node_modules"             // Exclude node_modules from being compiled
+  ]
+}
